@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 忘生浮尘">
+    <meta name="keywords" content="Axios学习, 忘生浮尘">
     <meta name="description" content="世如浮尘，忘生得以">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | 忘生浮尘</title>
+    <title>Axios学习 | 忘生浮尘</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -308,12 +308,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">Axios学习</h1>
                 </div>
             </div>
         </div>
@@ -428,12 +428,37 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                <span class="chip bg-color">前端</span>
+                            </a>
+                        
+                            <a href="/tags/Axios/">
+                                <span class="chip bg-color">Axios</span>
+                            </a>
+                        
+                            <a href="/tags/Ajax/">
+                                <span class="chip bg-color">Ajax</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%B7%A8%E5%9F%9F/">
+                                <span class="chip bg-color">跨域</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/" class="post-category">
+                                前端知识
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -442,7 +467,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-08-01
+                    2020-08-06
                 </div>
                 
 
@@ -458,19 +483,21 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+                <h2 id="Axios"><a href="#Axios" class="headerlink" title="Axios"></a>Axios</h2><h3 id="1-Axios的引言"><a href="#1-Axios的引言" class="headerlink" title="1. Axios的引言"></a>1. Axios的引言</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">## axios的引言</span></span><br><span class="line"><span class="code">    axios是一个异步请求技术</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">## 异步请求</span></span><br><span class="line"><span class="code">    基于XMLHttpRequest对象发起的请求都是异步请求</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">## 异步请求特点</span></span><br><span class="line"><span class="code">    请求之后页面不动，响应回来更新的是页面的局部，多个请求之间互不影响。</span></span><br><span class="line"><span class="code">    ajax确实用来发送异步请求，但是过气了。</span></span><br><span class="line"><span class="code">    系统架构，前后端分离架构系统，----异步请求技术----&gt;    vue全家桶系列  前端技术栈  vue 淘汰了jQuery</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="2-Axios基本入门"><a href="#2-Axios基本入门" class="headerlink" title="2. Axios基本入门"></a>2. Axios基本入门</h3><hr>
+<p>2.1 下载Axios</p>
+<p>​    下载地址：<a target="_blank" rel="noopener" href="https://unpkg.com/axios/dist/axios.min.js">点这里</a></p>
+<p>2.2 Axios的案例（IDEA）</p>
+<p>2.2.1 Get方式请求</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- &lt;script src=<span class="string">&quot;https://unpkg.com/axios/dist/axios.min.js&quot;</span>&gt;&lt;/script&gt; --&gt;</span><br><span class="line">&lt;script src=<span class="string">&quot;js/axios.min.js&quot;</span>&gt;&lt;/script&gt;&lt;!-- 下载到本地项目中速度更快 --&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    //get方式请求</span><br><span class="line">    axios.get(<span class="string">&#x27;http:localhost:8888/axios/findAll?username=张三&amp;password=123&#x27;</span>)//发送请求的URL</span><br><span class="line">    .<span class="keyword">then</span>(<span class="keyword">function</span> (response) &#123;</span><br><span class="line">   console.log(response.data);</span><br><span class="line">&#125;)    //相应回来触发的回调函数</span><br><span class="line">    .catch(<span class="keyword">function</span> (error) &#123; //当请求出现错误时回调函数</span><br><span class="line">    console.log(error);</span><br><span class="line">&#125;)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>2.2.2 Post方式请求</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;js/axios.min.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    axios.post(<span class="string">&#x27;http://localhost:8888/axios/save&#x27;</span>,&#123;name:<span class="string">&quot;李四&quot;</span>,birthday:2000-7-13&#125;)  //Post 请求地址的URL</span><br><span class="line">    .<span class="keyword">then</span>(<span class="keyword">function</span> (respone) &#123;</span><br><span class="line">    console.log(respone.data);</span><br><span class="line">&#125;)</span><br><span class="line">    .catch(<span class="keyword">function</span> (error) &#123;</span><br><span class="line">    console.log(error);</span><br><span class="line">&#125;)</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><hr>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">header appliaction/www-x-form-urlencoded  --&gt;&gt;    application/json</span><br><span class="line">1.axios在发送post的请求时传递的参数如果为对象类型，axios会自动将对象封装成json格式的字符串使用 application/json的请求头向后端服务器接口传递参数</span><br><span class="line">2.传递参数的两种方式：</span><br><span class="line"><span class="code">    第一种：使用字符串传递参数：&quot;name=张三&amp;age=23&quot;</span></span><br><span class="line"><span class="code">    第二种：后端接口直接使用 @RequestBody 注解形式接收参数：</span></span><br><span class="line"><span class="code">        public User save(@RequestBody User user)&#123;   //将application/json中的json数据封装成对象</span></span><br><span class="line"><span class="code">            /* ...*/</span></span><br><span class="line"><span class="code">        ]</span></span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
             </div>
             <hr/>
@@ -496,7 +523,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="wangchuanqiushui2430577069.github.io/2020/08/01/hello-world/">wangchuanqiushui2430577069.github.io/2020/08/01/hello-world/</a>
+                    <a href="wangchuanqiushui2430577069.github.io/2020/08/06/Axios/">wangchuanqiushui2430577069.github.io/2020/08/06/Axios/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -533,7 +560,23 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E5%89%8D%E7%AB%AF/">
+                                    <span class="chip bg-color">前端</span>
+                                </a>
+                            
+                                <a href="/tags/Axios/">
+                                    <span class="chip bg-color">Axios</span>
+                                </a>
+                            
+                                <a href="/tags/Ajax/">
+                                    <span class="chip bg-color">Ajax</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%B7%A8%E5%9F%9F/">
+                                    <span class="chip bg-color">跨域</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -697,9 +740,9 @@
 
 <script type="text/javascript">
     disqus_config = function () {
-        this.page.url = 'wangchuanqiushui2430577069.github.io/2020/08/01/hello-world/';
-        this.page.identifier = '/2020/08/01/hello-world/';
-        this.page.title = 'Hello World';
+        this.page.url = 'wangchuanqiushui2430577069.github.io/2020/08/06/Axios/';
+        this.page.identifier = '/2020/08/06/Axios/';
+        this.page.title = 'Axios学习';
     };
     let disqus_shortname = '';
 
@@ -725,9 +768,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2020/08/06/Axios/">
                     <div class="card-image">
@@ -745,9 +789,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-08-06
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-06
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -760,6 +804,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -787,7 +832,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2020/08/01/hello-world/">
@@ -817,7 +862,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
