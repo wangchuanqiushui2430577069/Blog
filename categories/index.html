@@ -369,11 +369,11 @@
                 </a>
                 
                 
-                <a href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/" title="编程学习: 1">
+                <a href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/" title="编程学习: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             style="background-color: #F5EEF8;">编程学习
-                        <span class="tag-length">1</span>
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -420,7 +420,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"前端知识","max":2},{"name":"编程学习","max":2}],
+            indicator: [{"name":"前端知识","max":3},{"name":"编程学习","max":3}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -431,7 +431,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1,1],
+                    value : [1,2],
                     name : '文章分类数量'
                 }
             ]
@@ -544,7 +544,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"前端知识","value":1},{"name":"编程学习","value":1}],
+                data: [{"name":"前端知识","value":1},{"name":"编程学习","value":2}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -568,7 +568,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["前端","Axios","Ajax","跨域","后端"]
+                data: ["前端","后端","Axios","Ajax","跨域"]
             }
         ],
         yAxis: [
@@ -581,7 +581,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [2,1,1,1,1],
+                data: [3,2,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
